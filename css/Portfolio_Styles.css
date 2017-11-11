@@ -1,0 +1,71 @@
+.navtextalign {
+    text-align: right;
+}
+/*----------------------------------
+    Portfolio Section Styles
+-----------------------------------*/
+header {
+    background: #fff url("../img/Zen_Bamboo.jpg") no-repeat; /*Replace with new background image*/
+    background-position: top right;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+
+}
+
+/*styles the background for mobile */
+@media (max-width: 500px) {
+    #header {
+        background-size: auto;
+    }
+}
+
+#skills {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#projects {
+    padding-bottom: 150px;
+}
+
+/*----------------------------------
+        Text Styles
+-----------------------------------*/
+.main-text {
+   /* font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 2px 5px #636262;
+    padding-left: 2em;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: #fff
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.section-title {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+/*----------------------------------
+    Color Styles
+-----------------------------------*/
+.icon-color {
+    color: #00e5ee
+}
+
