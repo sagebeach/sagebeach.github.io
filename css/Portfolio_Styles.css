@@ -1,35 +1,38 @@
 .navtextalign {
     text-align: right;
 }
+
 /*----------------------------------
     Portfolio Section Styles
 -----------------------------------*/
 header {
-    background: #fff url("../img/Zen_Bamboo.jpg") no-repeat; /*Replace with new background image*/
+    background: #fff url("../img/john-price-aspens.jpg") no-repeat; /*Replace with new background image*/
     background-position: top right;
     background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;
     width: 100%;
     height: 100%;
-
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
 }
 
-/*styles the background for mobile */
+/*styles the background for mobile
 @media (max-width: 500px) {
     #header {
         background-size: auto;
     }
-}
+} */
 
-#skills {
+.skills {
     padding-top: 100px;
     padding-bottom: 150px;
 }
 
-#projects {
+.projects {
     padding-bottom: 150px;
 }
 
@@ -38,14 +41,15 @@ header {
 -----------------------------------*/
 .main-text {
    /* font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif; */
-    font-weight: bold;
-    text-align: left;
-    text-shadow: 2px 2px 5px #636262;
-    padding-left: 2em;
-    padding-top: 150px;
-    padding-bottom: 100px;
-    color: #fff
+    font-weight: bolder;
+    font-family: "Arno Pro",Helvetica,Arial,sans-serif;
+    display: inline;
+    width: 0;
+    /*text-shadow: 2px 2px 5px #636262; */
+    color: #fff;
+    background-color: rgba(40,23,13,0.9);
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
@@ -53,7 +57,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title {
-    text-decoration: underline;
+    border-top: solid rgb(40,23,13);
+    border-bottom: solid rgb(40,23,13);
+    overflow: hidden;
+    display: inline;
     text-align: center;
 }
 
@@ -66,6 +73,12 @@ h1, h2, h3, h4, h5, h6 {
     Color Styles
 -----------------------------------*/
 .icon-color {
-    color: #00e5ee
+    color: #febf10;
 }
-
+.navbar {
+  background-color: #9C9F84;
+  opacity: .9;
+}
+#logo {
+  opacity: 1;
+}
