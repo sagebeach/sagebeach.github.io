@@ -38,7 +38,7 @@
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Projects">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">Disabled</a>
@@ -62,7 +62,7 @@
     <!-- Main webpage header/background image -->
 
     <!-- Showcase of my skills -->
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -138,21 +138,21 @@
         <!-- /Showcase of my skills -->
 
         <!-- Projects portfolio section -->
-        <section class="projects">
+        <section class="projects" id="projects">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <h2 class="section-title">Projects</h2>
                         </div>
                     </div>
-                    <div class="row cards text-center justify-content-center">
+                    <div class="row cards text-center justify-content-center" >
                         <div class="card" style="width: 20rem;">
                             <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
                             <span class="fa fa-hourglass fa-4x" aria-hidden="true"></span>
                             <div class="card-body">
                                 <h4 class="card-title">Project Title</h4>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary badge-warning" data-toggle="modal" data-target="#projectmod_2">Go somewhere</a>
                             </div>
                         </div>
                         <div class="card" style="width: 20rem;">
@@ -161,12 +161,54 @@
                             <div class="card-body">
                                 <h4 class="card-title">Project Title</h4>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary badge-warning" data-toggle="modal" data-target="#projectmod_2">Go somewhere</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+          <!-- modal for project 1 -->
+          <div class="modal fade" id="projectmod_1">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- modal for project 2 -->
+        <div class="modal fade" id="projectmod_2">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Modal body text goes here.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <!--Footer -->
         <div class="container">
                 <ul class="nav nav-inline justify-content-center" >
