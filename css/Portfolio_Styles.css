@@ -36,6 +36,10 @@ header {
     padding-bottom: 150px;
 }
 
+.CardStyle {
+  margin: 10px;
+}
+
 /*----------------------------------
         Text Styles
 -----------------------------------*/
