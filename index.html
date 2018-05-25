@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-    <title>*WIP*Sage Beach</title>
+    <title>Sage Beach - Developer, Designer, Dreamer</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +18,7 @@
 
     <!-- Navbar: Image and text -->
     <nav class="navbar navbar-expand-md fixed-top navbar-light">
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="#pageTop">
                     <img id="logo" src="./img/logo_sage_beach.png" width="35" height="35" class="d-inline-block align-top" alt=""> <!--Replace logo -->
                     Welcome
                 </a>
@@ -49,7 +49,7 @@
 
     <!-- Main webpage header/background image -->
     <header>
-        <div class="container">
+        <div class="container" id="pageTop">
             <div>
                 <h1 class="main-text" class="name">Sage Beach</h1>
             </div>
@@ -69,7 +69,8 @@
                 </div>
             </div>
             <div class="center aboutMeDiv">
-                <p>I value personal, intellectual, and professional development. If you're going to invest your time into something, do it right and see it through. While you're at it, be compassionate and make an effort to add value to the lives of others. I am a full stack software developer, designer, photographer, chef, outdoorsman, snowboarder, and stargazer. I believe that if you shoot for the moon, at least you'll make it into space.</p>
+                <p>I value personal, intellectual, and professional development. Giving my best effort to invest passion and integrity into everything I do. I believe that if you're going to invest your time into something, do it right and see it through. No matter what path you walk, be compassionate and make an effort to add value to the lives of others.</p>
+                <p>I am a recent Graduate of the Tech Academy, after investing over 600 hours into my Developer education. I am proud to call myself a full stack software developer, designer, photographer, chef, outdoorsman, snowboarder, and stargazer. I believe that if you shoot for the moon, at least you'll make it into space.</p>
             </div>                
     </section>
     <!-- About Me -->
@@ -177,7 +178,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Prosper IT Consulting</h4>
                                 <p class="card-text">UI design and Backend functionality development on a live project.</p>
-                                <a href="#" class="btn btn-primary badge-warning" data-toggle="modal" data-target="#projectmod_2">Project Info</a>
+                                <a href="#" class="btn btn-primary badge-warning" data-toggle="modal" data-target="#projectmod_1">Project Info</a>
                             </div>
                         </div>
                         <div class="card CardStyle" style="width: 20rem;">
@@ -186,16 +187,33 @@
                             <div class="card-body">
                                 <h4 class="card-title">Javascript Order Form</h4>
                                 <p class="card-text">School project for the design of a back-end script to create a working reciept based on user input on an ordering form.</p>
-                                <a href="#" class="btn btn-primary badge-warning" data-toggle="modal" data-target="#projectmod_1">Project Info</a>
+                                <a href="#" class="btn btn-primary badge-warning" data-toggle="modal" data-target="#projectmod_2">Project Info</a>
                             </div>
                         </div>
-                        
+                        <div class="card CardStyle" style="width: 20rem;">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div style="text-align: center;"><span class="fas fa-eye fa-4x" aria-hidden="true"></span></div>
+                            <div class="card-body">
+                                <h4 class="card-title">SQL Library Catalogue</h4>
+                                <p class="card-text">Scripts for the Creation, population, and data queries for a SQL database.</p>
+                                <a href="#" class="btn btn-primary badge-warning" data-toggle="modal" data-target="#projectmod_3">Project Info</a>
+                            </div>
+                        </div>
+                        <div class="card CardStyle" style="width: 20rem;">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div style="text-align: center;"><span class="fas fa-eye fa-4x" aria-hidden="true"></span></div>
+                            <div class="card-body">
+                                <h4 class="card-title">C# Coding Challenges</h4>
+                                <p class="card-text">Collection of instructional coding challenges I completed for my education.</p>
+                                <a href="#" class="btn btn-primary badge-warning" data-toggle="modal" data-target="#projectmod_4">Project Info</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- modal for project 1 -->
-            <div class="modal fade" id="projectmod_2">
+            <div class="modal fade" id="projectmod_1">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -224,7 +242,7 @@
             </div>
 
             <!-- modal for project 2 -->
-            <div class="modal fade" id="projectmod_1">
+            <div class="modal fade" id="projectmod_2">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -246,6 +264,49 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-primary" onclick=window.open("https://github.com/sagebeach/CodeDrills/tree/master/FrontEndDrills_HTML_CSS_JS_etc/Michelangelo%27s%20pizza","_blank")>Project Github files</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- modal for project 3 -->
+            <div class="modal fade" id="projectmod_3">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Library Catalogue Database</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>See github for project scripts</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" onclick=window.open("https://github.com/sagebeach/librarycatalogue_sql")>Project Github files</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- modal for project 4 -->
+            <div class="modal fade" id="projectmod_4">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">C# School Coding Challenges</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>The collection of challenges I have completed is available on my Github. These tasks were given to me for instructional purposes to gain hands on experience with C# and .NET coding.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" onclick=window.open("https://github.com/sagebeach/C_Sharp_Challenges_Pt_1")>C# Challenges 1</button>
+                      <button type="button" class="btn btn-primary" onclick=window.open("https://github.com/sagebeach/C_Sharp_Challenges_Pt_2")>C# Challenges 2</button>
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                   </div>
