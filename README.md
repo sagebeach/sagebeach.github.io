@@ -9,13 +9,17 @@ history, as well as my skill in front end web design.
 
 ## Steps Taken
 ---
-1.1Made navbar and headers responsive,
+1.1 Made navbar and headers responsive,
 organized HTML and CSS code,
 organized sections of the webpage,
 set up the outline to get ready for future content.
 1.2 updated color scheme,
 designed new logo,
 updated background (header)
+1.3 Updated to reflect new FontAwesome svg release 
+1.4 added projects with appropriate links,
+added About ME section
+Polished page reference links
 
 
 ## Results
