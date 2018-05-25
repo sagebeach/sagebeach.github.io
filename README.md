@@ -1,13 +1,13 @@
-#Personal Portfolio Website
+# Personal Portfolio Website
 #### sagebeach.github.io
 Portfolio webpage
 
-##Objective
+## Objective
 ---
 To build a webpage showcasing my skills, past projects, work
 history, as well as my skill in front end web design.
 
-##Steps Taken
+## Steps Taken
 ---
 1.1Made navbar and headers responsive,
 organized HTML and CSS code,
@@ -18,20 +18,17 @@ designed new logo,
 updated background (header)
 
 
-##Results
+## Results
 ---
 The first edit produced a clean design,
 ready for actual content to be showcased.
 
 The second edit updated graphics and color schemes.
 
-##To-Do
+## To-Do
 ---
 ~~personal branding: logo, motto~~
 ~~refine color scheme,~~
 ~~header image/navbar logo,~~
-customize fonts,
-add content
-
-======
-~~000000000000000000000000000~~
+~~customize fonts,~~
+~~add content~~
